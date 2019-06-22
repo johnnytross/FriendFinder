@@ -24,7 +24,7 @@ var connection = mysql.createConnection({
   // database: "pets_db"
 });
 
-//Give connection ID if properly connected, otherwise, throw an error
+//Give connection ID if properly connected, otherwise, throw an error 
 connection.connect(function(err) {
   if (err) {
     console.error("error connecting: " + err.stack);
